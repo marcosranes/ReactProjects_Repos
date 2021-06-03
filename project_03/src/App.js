@@ -21,6 +21,11 @@ export default class App extends Component {
         title: "The Title 3",
         body: "The Body 3",
       },
+      {
+        id: 4,
+        title: "The Title 4",
+        body: "The Body 4",
+      },
     ],
   };
 
@@ -61,6 +66,11 @@ export default class App extends Component {
             id: 3,
             title: "Title 3 has changed",
             body: "Body 3 as well",
+          },
+          {
+            id: 4,
+            title: "Title 4 has changed",
+            body: "Body 4 as well",
           },
         ],
       });
